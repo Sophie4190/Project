@@ -1,9 +1,9 @@
 import java.util.*;
 public class main {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Welcome to Tbao! What type of products are you looking for today? You may choose from Clothes, Makeup or Accessories!");
-        String type = sc.nextLine().toLowerCase;
+        String type = sc.nextLine().toLowerCase();
         if (type.equals("clothes")){
             System.out.println("What type of Clothes are you looking for? We have sweaters, pants, tees, sleepwear and sportswear.");
 
